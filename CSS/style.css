@@ -1,0 +1,104 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1D1F27;
+    color: #FFFFFF;
+}
+
+/* Container for Todo List */
+.todo-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2D2F38;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.todo-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input fields styling */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-container input[type="text"],
+.input-container input[type="date"] {
+    width: 65%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3E4048;
+    color: #FFFFFF;
+}
+
+.input-container button {
+    width: 30%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6A80EA;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.input-container button:hover {
+    background-color: #5863D6;
+}
+
+/* Filter and Delete all button */
+.filter-btn {
+    background-color: #3E4048;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.filter-btn:hover {
+    background-color: #5863D6;
+}
+
+/* Table styling */
+.todo-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.todo-table th, .todo-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #444851;
+}
+
+.todo-table th {
+    background-color: #3E4048;
+}
+
+.todo-table tr:hover {
+    background-color: #2D2F38;
+}
+
+/* No task found message */
+.no-task {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #AAAAAA;
+}
